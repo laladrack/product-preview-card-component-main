@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+html {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+body{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px 2px hsla(32, 16%, 77%, 0.913);
+    display: flex;
+    width: 700px;
+    flex-basis: auto;
+}
+
+.pic{
+    flex:1 1 auto;
+    border-radius: 15px 0 0 15px;
+    width: 300px;
+}
+
+.parte-branca{
+    flex: 1 1 auto;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    padding: 8px 24px;
+}
+
+.perfume{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: hsl(158, 36%, 37%);
+}
+
+.cart{
+    height: 15px;
+    width: auto;
+    padding-right: 8px;
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+}
+
+.price{
+    font-size: 35px;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-family: 'Fraunces';
+}
+
+.old-price {
+    justify-content: flex-end;
+    padding: 16px;
+    text-decoration: line-through;
+}
+
+h1 {
+    font-family: 'Fraunces';
+    font-size: 40px;
+    margin-top: 0;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    padding: 16px 0 16px 0;
+    border-width: 0;
+}
+
+button:hover {
+    border-color: white;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.description{
+    line-height: 1.8;
+    margin: 0;
+    font-size: 16px;
+}
